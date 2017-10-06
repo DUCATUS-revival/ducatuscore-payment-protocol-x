@@ -1,9 +1,9 @@
 Bitcore Payment Protocol
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcore-payment-protocol.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-payment-protocol)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-payment-protocol.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-payment-protocol)
+[![NPM Package](https://img.shields.io/npm/v/ducatuscore-payment-protocol.svg?style=flat-square)](https://www.npmjs.org/package/ducatuscore-payment-protocol)
+[![Build Status](https://img.shields.io/travis/bitpay/ducatuscore-payment-protocol.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/ducatuscore-payment-protocol)
+[![Coverage Status](https://img.shields.io/coveralls/bitpay/ducatuscore-payment-protocol.svg?style=flat-square)](https://coveralls.io/r/bitpay/ducatuscore-payment-protocol)
 
 A module for [bitcore](https://github.com/bitpay/bitcore) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
 
@@ -12,19 +12,19 @@ A module for [bitcore](https://github.com/bitpay/bitcore) that implements [Payme
 This library is distributed in both the npm and bower packaging systems.
 
 ```sh
-npm install bitcore-lib
-npm install bitcore-payment-protocol
+npm install ducatuscore-lib
+npm install ducatuscore-payment-protocol
 ```
 
 ```sh
-bower install bitcore-lib
-bower install bitcore-payment-protocol
+bower install ducatuscore-lib
+bower install ducatuscore-payment-protocol
 ```
 
 There are many examples of how to use it on the developer guide [section for payment protocol](https://bitcore.io/api/paypro). For example, the following code would verify a payment request:
 
 ```javascript
-var PaymentProtocol = require('bitcore-payment-protocol');
+var PaymentProtocol = require('ducatuscore-payment-protocol');
 
 var body = PaymentProtocol.PaymentRequest.decode(rawbody);
 var request = new PaymentProtocol().makePaymentRequest(body);
