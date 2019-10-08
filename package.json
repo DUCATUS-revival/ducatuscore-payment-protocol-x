@@ -46,7 +46,7 @@
     "asn1.js": "=4.5.2",
     "ducatuscore-lib": "git+ssh://git@github.com/Ducatus/ducatuscore-lib-x.git",
     "jsrsasign": "=5.0.10",
-    "protobufjs": "=5.0.1"
+    "protobufjs": "=6.8.8"
   },
   "devDependencies": {
     "bitcore-build": "git://github.com/bitpay/bitcore-build.git#a93a9970e3a0b3f948309730d4e4af5100dddf5a",
