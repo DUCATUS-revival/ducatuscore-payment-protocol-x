@@ -45,7 +45,7 @@
   "dependencies": {
     "asn1.js": "=4.5.2",
     "ducatuscore-lib": "git+ssh://git@github.com/DUCATUS-revival/ducatuscore-lib-x.git",
-    "jsrsasign": "=5.0.10",
+    "jsrsasign": "=8.0.20",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
